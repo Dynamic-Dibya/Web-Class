@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+<table>
+<tr>
+        <td><label for="user_name">Username:</label></td>
+        <td><input type="text" id="user_name" placeholder="alex009" required></td>
+</tr>
+<tr>
+        <td><label for="lakshya">Password:</label></td>
+        <td><input type="password" id="lakshya" placeholder="admin@2020" required minlength="8"></td>
+</tr>
+<tr>
+       <td> <label for="">Email:</label></td>
+       <td> <input type="email" placeholder="example@gmail.com"></td>
+
+</tr>
+<tr>
+        <td><label for="">Age:</label></td>
+        <td><input type="number" min="18" max="60"></td>
+</tr>
+<tr>
+        <td><label for="">Contact:</label></td>
+        <td><input type="tel"></td>
+</tr>
+<tr>
+        <td><label for="">Date:</label></td>
+        <td><input type="date"></td>
+</tr>
+<tr>
+        <td><label for="">Time:</label></td>
+        <td><input type="time"></td>
+</tr>
+<tr>
+        <td><label for="">Exact Time and Date:</label></td>
+        <td><input type="datetime-local"></td>
+</tr>
+    </table>
+</fieldset> 
+
+<fieldset>
+    <legend>Gender</legend>
+    <table>
+        <tr>
+            <td><input type="radio" name="Gender"></td>
+            <td><label for="">Male</label></td>
+
+            <td><input type="radio" name="Gender"></td>
+            <td><label for="">female</label></td>
+        </tr>
+    </table>
+
+
+</fieldset>
+
+<br>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

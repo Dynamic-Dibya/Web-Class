@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSITION</title>
+    <style>
+        .common{
+            background-color: red;
+            color: white;
+        }
+        .first{
+            background-color: blueviolet;
+            position: absolute;
+            left: 20px;
+            z-index: 9999;
+        }
+        .second{
+            background-color: blue;
+            position:absolute;
+            left: 15px;
+            z-index:100;
+    
+        }
+        .third{
+            background-color: rgb(12, 170, 49);
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <section class="common first">SECTION-1</section>
+    <section class="common second">SECTION-2</section>
+    <section class="common third">SECTION-3</section>
+
+</body>
+</html>
