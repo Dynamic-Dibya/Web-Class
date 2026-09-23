@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+<table>
+<tr>
+        <td><label for="user_name">Username:</label></td>
+        <td><input type="text" id="user_name" placeholder="alex009" required></td>
+</tr>
+<tr>
+        <td><label for="lakshya">Password:</label></td>
+        <td><input type="password" id="lakshya" placeholder="admin@2020" required minlength="8"></td>
+</tr>
+<tr>
+       <td> <label for="">Email:</label></td>
+       <td> <input type="email" placeholder="example@gmail.com"></td>
+
+</tr>
+<tr>
+        <td><label for="">Age:</label></td>
+        <td><input type="number" min="18" max="60"></td>
+</tr>
+<tr>
+        <td><label for="">Contact:</label></td>
+        <td><input type="tel"></td>
+</tr>
+<tr>
+        <td><label for="">Date:</label></td>
+        <td><input type="date"></td>
+</tr>
+<tr>
+        <td><label for="">Time:</label></td>
+        <td><input type="time"></td>
+</tr>
+<tr>
+        <td><label for="">Exact Time and Date:</label></td>
+        <td><input type="datetime-local"></td>
+</tr>
+    </table>
+</fieldset> 
+
+<fieldset>
+    <legend>Gender</legend>
+    <table>
+        <tr>
+            <td><input type="radio" name="Gender"></td>
+            <td><label for="">Male</label></td>
+
+            <td><input type="radio" name="Gender"></td>
+            <td><label for="">female</label></td>
+        </tr>
+    </table>
+
+
+</fieldset>
+<fieldset>
+    <legend>Education Qualification</legend>
+    <table>
+        <tr>
+            <td><label for="">10th</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">12th</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">PG</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">UG</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">PhD</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">Diploma</label></td>
+            <td><input type="checkbox" name="Q"></td>
+
+            <td><label for="">ITI</label></td>
+            <td><input type="checkbox" name="Q"></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Address</legend>
+    <table>
+        <tr>
+            <td><label for="AD">Permanent Address</label></td> 
+        </tr>
+        <tr>
+            <td><textarea name="" id="AD"></textarea></td>
+        </tr>
+                <tr>
+            <td><label for="">Present Address</label></td> 
+        </tr>
+        <tr>
+            <td><textarea name="" id="" placeholder="Your address here..."></textarea></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Choose your course</legend>
+    <table>
+        <tr>
+            <td><label for="course">Select course</label></td>
+            <td><select name="" id="course" multiple size="2">
+                <option value="">AIML</option>
+                <option value="">CS</option>
+                <option value="" selected>BCA</option>
+                <option value="">DS</option>
+                <option value="">ITM</option>   
+            </select></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Upload Resume</legend>
+    <table>
+        <tr>
+            <td><label for="">Upload your CV</label>
+            <input type="file" name="" id=""></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Random Things</legend>
+    <table>
+        <tr>
+            <td><label for="">Select a number</label></td>
+            <td><input type="range" min="0" max="100"></td>
+        </tr>
+                <tr>
+            <td><label for="">Choose a color</label></td>
+            <td><input type="color"></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+<fieldset>
+    <legend>Choose Your food</legend>
+    <table>
+        <tr>
+            <td><label for="">Choose your fav food from us: </label>
+            <input list="food">
+            
+            <datalist id="food">
+                <option value="Biryani">Biryani</option>
+                <option value="Ice-Cream"></option>
+                <option value="Chicken Tikka"></option>
+                <option value="Pakhal"></option>
+                <option value="Chicken DoPyaja"></option>
+                <option value="Khichidi"></option>
+                <option value="Gupchup"></option>
+                <option value="Rolls"></option>
+                <option value="Momo"></option>
+                <option value="Lachha Paratha"></option>
+            </datalist></td>
+        </tr>
+    </table>
+</fieldset>
+
+
+<br>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>
